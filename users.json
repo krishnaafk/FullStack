@@ -1,0 +1,14 @@
+[
+    {
+        "name": "krishna",
+        "email": "mandalkrishna@gmail.com",
+        "password": "$2y$10$ELM6QuSvpJRf9.HAn7.E8OlgkxuE8WpbQJcZcnWdKB6BP86SNU26W",
+        "registered_at": "2025-12-08T03:17:37+01:00"
+    },
+    {
+        "name": "ram",
+        "email": "ram12@gmail.com",
+        "password": "$2y$10$12kvpNc31EnmIS9jBrTI5OSKPBu4dDx2Uea4xzq.8qT9qQRfBdnva",
+        "registered_at": "2025-12-08T03:18:54+01:00"
+    }
+]
