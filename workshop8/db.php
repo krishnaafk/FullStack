@@ -12,7 +12,7 @@ try {
         PDO::ATTR_EMULATE_PREPARES => false
     ];
 
-    // Changed $pdo to $conn to match index.php
+   
     $conn = new PDO(
         "mysql:host=$server;dbname=$database;charset=utf8mb4",
         $username,
@@ -20,8 +20,6 @@ try {
         $options
     );
 
-    // Note: It is better to remove the "echo" from here 
-    // because it might mess up your page layout/Blade templates.
 
 } catch (PDOException $e) {
     die("Connection Failed: " . $e->getMessage());
